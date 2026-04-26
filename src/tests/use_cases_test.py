@@ -1,6 +1,5 @@
-from domain.entities.task import Task
 from application.use_cases.create_task import CreateTask
-from infrastructure.repositories.in_memory_task_repository import InMemoryTaskRepository
+from infrastructure.repositories import InMemoryTaskRepository
 
 
 def test_create_task():
